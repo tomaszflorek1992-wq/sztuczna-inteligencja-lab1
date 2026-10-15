@@ -1,0 +1,201 @@
+ticket_id,title,description,expected_category,priority,language
+TCK-0001,"VPN disconnects","My VPN disconnects every few minutes when I work from home.",network,normal,en
+TCK-0002,"Suspicious email","I received an email asking me to confirm my password.",security,high,en
+TCK-0003,"Slow downloads over VPN","When connected to VPN, downloads from SharePoint are about 100 KB/s.",network,normal,en
+TCK-0004,"Nie działa podgląd PDF","W Outlooku nie mogę podejrzeć załączników PDF, pojawia się komunikat o braku programu do podglądu.",software,low,pl
+TCK-0005,"Excel freezes with large files","Excel stops responding whenever I open the monthly sales report (about 80 MB). Smaller files work fine.",software,normal,en
+TCK-0006,"Bateria szybko się rozładowuje","Bateria w laptopie trzyma tylko godzinę, wcześniej wytrzymywała cały dzień.",hardware,normal,pl
+TCK-0007,"Wi-Fi lagguje na callach","Na Wi-Fi w open space wszystko lagguje, zwłaszcza calle na Teamsach. Na kablu jest ok.",network,normal,mixed
+TCK-0008,"PowerPoint template missing","The new corporate PowerPoint template is not available under File > New. Colleagues have it.",software,low,en
+TCK-0009,"Windows Hello PIN not available","My Windows Hello PIN stopped working and it says 'Something happened and your PIN isn't available'.",account-access,normal,en
+TCK-0010,"CRM app shows error 500","The Salesforce integration in our CRM client throws 'Internal Server Error 500' when I save a contact.",software,high,en
+TCK-0011,"VPN nie connectuje","VPN nie connectuje się od rana, dostaję timeout po ok. 30 sekundach.",network,normal,mixed
+TCK-0012,"Can't open Power BI workspace","Power BI says I need permission to view the 'Sales Dashboards' workspace.",account-access,low,en
+TCK-0013,"Teams screen sharing not working","When I try to share my screen in Teams, the other participants only see a black window.",software,normal,en
+TCK-0014,"Business card order","Please order new business cards with my updated job title.",other,low,en
+TCK-0015,"Email signature setup","How do I set up the new company email signature in Outlook? The generator link from the newsletter doesn't work.",software,low,en
+TCK-0016,"Salary file sent to wrong recipient","I accidentally sent a file with employee salaries to an external email address.",security,high,en
+TCK-0017,"Password posted in Teams chat","I pasted my password into a Teams chat with the whole team by mistake.",security,high,en
+TCK-0018,"Zoom audio not working","Zoom doesn't detect any microphone, although the same microphone works in Teams on this laptop.",software,normal,en
+TCK-0019,"Clicked phishing link","I clicked a link in an email about a DHL delivery and entered my login details before I realized it was fake.",security,critical,en
+TCK-0020,"Prośba o instalację programu","Proszę o zainstalowanie programu 7-Zip na moim komputerze, nie mam uprawnień administratora.",software,low,pl
+TCK-0021,"Printer paper jam","The printer on the 2nd floor (HP next to the kitchen) keeps jamming with error 13.20.",hardware,low,en
+TCK-0022,"Prośba o aktualizację przeglądarki","Firefox na moim komputerze jest bardzo stary i część stron się nie wyświetla. Proszę o aktualizację.",software,low,pl
+TCK-0023,"Adobe Acrobat license expired","Acrobat says my trial has expired and I cannot edit PDFs anymore. I thought we had a company license.",software,normal,en
+TCK-0024,"New phone for Authenticator","I got a new phone and need to move Microsoft Authenticator. The old phone was already reset.",account-access,normal,en
+TCK-0025,"Konto dla nowego pracownika","Od poniedziałku dołącza do nas nowa osoba w dziale logistyki. Proszę o założenie konta i skrzynki mailowej.",account-access,normal,pl
+TCK-0026,"Cannot sign in to Teams on phone","Teams on my phone says 'We couldn't sign you in' and keeps asking for my credentials.",account-access,normal,en
+TCK-0027,"Access denied in SharePoint","I can see the HR site in SharePoint but I get 'Access denied' when opening any document.",account-access,normal,en
+TCK-0028,"Edit rights in Confluence","Please give me edit rights in the Confluence space 'Onboarding'.",account-access,low,en
+TCK-0029,"Outlook nie wysyła maili","Wiadomości zostają w skrzynce nadawczej i nie są wysyłane. Odbieranie działa normalnie.",software,normal,pl
+TCK-0030,"Zrywa połączenie Wi-Fi","Laptop co chwilę gubi połączenie z siecią firmową, telefon w tym samym miejscu działa bez problemu.",network,normal,pl
+TCK-0031,"Wolne połączenie","Strony internetowe ładują się bardzo wolno, a pobieranie plików trwa wieki.",network,normal,pl
+TCK-0032,"AWS console login fails","I can't log in to the AWS console via SSO, it says no role is assigned to my user.",account-access,normal,en
+TCK-0033,"Antivirus alert after download","Defender popped up with 'Threat found: Trojan:Win32/Wacatac' after I downloaded a file from a supplier.",security,high,en
+TCK-0034,"Cannot log in after name change","After my marriage my surname changed and now I cannot log in with the new username.",account-access,normal,en
+TCK-0035,"OneDrive nie synchronizuje plików","Od wczoraj OneDrive nie synchronizuje folderu Projekty, ikona pokazuje wstrzymaną synchronizację.",software,normal,pl
+TCK-0036,"Training budget request","I'd like to attend an advanced Excel course. How do I request training budget?",other,low,en
+TCK-0037,"Teams meeting add-in missing","The 'New Teams Meeting' button disappeared from my Outlook calendar.",software,normal,en
+TCK-0038,"MFA codes not arriving","I don't receive SMS codes for multi-factor authentication anymore. I changed my phone number last week.",account-access,high,en
+TCK-0039,"Nie działa klimatyzacja","W pokoju 1.07 nie działa klimatyzacja, jest bardzo gorąco.",other,normal,pl
+TCK-0040,"Kliknąłem w link z SMS-a","Kliknąłem w link z SMS-a o dopłacie do przesyłki i wpisałem dane logowania do poczty.",security,critical,pl
+TCK-0041,"Jira plugin not loading","The Tempo timesheet plugin in Jira shows a blank panel since this morning.",software,normal,en
+TCK-0042,"SSO login loop","When I open Workday I am redirected to the login page again and again.",account-access,normal,en
+TCK-0043,"MFA requests I didn't initiate","I keep getting MFA approval requests on my phone that I didn't initiate. I declined all of them.",security,critical,en
+TCK-0044,"Teams crashuje przy callu","Teams crashuje za każdym razem, jak join-uję meeting z kalendarza. Restart nie pomaga.",software,normal,mixed
+TCK-0045,"Keyboard keys not working","Several keys (E, R, T) on my laptop keyboard stopped working after I spilled some coffee.",hardware,normal,en
+TCK-0046,"Proxy blocking supplier portal","The proxy blocks access to a supplier portal (supplier-portal.example.com) that I need for placing orders.",network,normal,en
+TCK-0047,"Karta Multisport","Jak mogę zapisać się do programu Multisport?",other,low,pl
+TCK-0048,"Slow internet on 2nd floor","Internet is extremely slow on the 2nd floor since this morning, web pages take a minute to load.",network,high,en
+TCK-0049,"Clicking noise from laptop","There's a loud clicking sound from the laptop, like the fan is hitting something.",hardware,normal,en
+TCK-0050,"Teams calls choppy on office Wi-Fi","Teams calls keep freezing and the audio is choppy, but only on the office Wi-Fi. At home it's fine.",network,normal,en
+TCK-0051,"Printer prints blank pages","The color printer in the marketing room prints empty pages. The toner was replaced yesterday.",hardware,low,en
+TCK-0052,"Account disabled after parental leave","I returned from parental leave today and my account is disabled.",account-access,high,en
+TCK-0053,"Outlook crashes on startup","Outlook closes immediately after I open it. I already restarted the laptop twice.",software,normal,en
+TCK-0054,"Conference expenses","How do I submit expenses for a conference I paid for with my private card?",other,low,en
+TCK-0055,"Payroll application very slow","The payroll application takes about 5 minutes to load each employee record. It used to be instant.",software,high,en
+TCK-0056,"Nie działa internet","Od rana nie działa internet na całym trzecim piętrze.",network,high,pl
+TCK-0057,"Internal hostnames resolve wrong","Some internal hostnames resolve to wrong IP addresses, e.g. jenkins.company.local points to an old server.",network,high,en
+TCK-0058,"Packet loss to Frankfurt DC","Our monitoring shows 10% packet loss between the Warsaw office and the Frankfurt data center since 14:00.",network,high,en
+TCK-0059,"Kitchen not cleaned","The kitchen on the 3rd floor hasn't been cleaned since Monday.",other,low,en
+TCK-0060,"Ktoś zna moje hasło","Podejrzewam, że ktoś zna moje hasło, w folderze Wysłane są maile, których nie pisałam.",security,critical,pl
+TCK-0061,"Guest Wi-Fi for visitors","We have 15 visitors tomorrow for a workshop. Can we get guest Wi-Fi vouchers?",network,low,en
+TCK-0062,"Błąd aktualizacji systemu","Windows Update pokazuje błąd 0x80070643 i od tygodnia nie instaluje aktualizacji.",software,normal,pl
+TCK-0063,"Gniazdko sieciowe nie działa","Gniazdko sieciowe przy moim biurku nie działa, kabel jest sprawny.",network,low,pl
+TCK-0064,"Aplikacja urlopowa się zawiesza","Aplikacja do składania wniosków urlopowych zawiesza się przy wyborze daty w kalendarzu.",software,normal,pl
+TCK-0065,"Docking station nie widzi monitora","Po podpięciu do docking station laptop nie widzi zewnętrznego monitora, a bezpośrednio po HDMI działa.",hardware,normal,mixed
+TCK-0066,"Password for new Wi-Fi network","What is the password for the new CORP-5G network? My laptop doesn't connect to it automatically.",network,low,en
+TCK-0067,"Printer driver missing","When I add the 3rd floor printer, Windows asks for a driver and I cannot install it without admin rights.",software,normal,en
+TCK-0068,"Cannot open .msg attachments","Attachments in .msg format open as unreadable text instead of in Outlook.",software,low,en
+TCK-0069,"Antywirus nie może usunąć zagrożenia","Antywirus pokazuje, że wykrył zagrożenie i nie może go usunąć.",security,high,pl
+TCK-0070,"Server room door left open","The door to the server room on the 1st floor has been left open all day and there's nobody inside.",security,normal,en
+TCK-0071,"Whole office offline","Nobody in the Gdańsk office has network connectivity since 9:15. Desk phones and laptops are all offline.",network,critical,en
+TCK-0072,"GitLab permission denied","I get 'Permission denied (publickey)' when cloning repositories from GitLab. I'm new in the backend team.",account-access,normal,en
+TCK-0073,"Catering na meeting z klientem","Potrzebujemy cateringu na meeting z klientem w czwartek, 12 osób, sala Tatry. Kto to ogarnia?",other,low,mixed
+TCK-0074,"Wi-Fi drops near kitchen","My laptop disconnects from Wi-Fi every few minutes on the 3rd floor near the kitchen.",network,normal,en
+TCK-0075,"Word psuje formatowanie","Po otwarciu dokumentu na innym komputerze Word rozjeżdża całe formatowanie i numerację stron.",software,low,pl
+TCK-0076,"Blue screen several times a day","My PC shows a blue screen with 'WHEA_UNCORRECTABLE_ERROR' several times a day.",hardware,high,en
+TCK-0077,"Account locks every morning","My account locks every morning around 8:00 even before I type anything. Maybe an old phone still has my mail configured?",account-access,normal,en
+TCK-0078,"Access to shared folder","Please grant me read/write access to the Finance > Budget 2026 shared folder. My manager Anna Kowalska approved it.",account-access,normal,en
+TCK-0079,"Charger left in another office","I left my laptop charger in the Berlin office. Can I get a spare one?",hardware,low,en
+TCK-0080,"Intranet się nie otwiera","Intranet się nie otwiera, a inne strony działają normalnie.",network,normal,pl
+TCK-0081,"IP address conflict","Windows shows 'IP address conflict detected' on my PC and then the network disconnects.",network,normal,en
+TCK-0082,"Cannot connect to SQL server","Connection to db-reporting-01 times out from my laptop, but it works from the remote desktop server.",network,normal,en
+TCK-0083,"Video conference room has no network","The video conference system in room Everest shows 'No network' and the board meeting starts in 30 minutes.",network,high,en
+TCK-0084,"Webcam not detected","The built-in webcam is not detected in any application. Device Manager shows no camera at all.",hardware,normal,en
+TCK-0085,"Wrong date format in expense tool","The expense tool shows dates as MM/DD/YYYY even though my region is set to Poland.",software,low,en
+TCK-0086,"OneDrive sync error","OneDrive shows a red X and says 'Sync is paused - upload blocked' for about 200 files.",software,normal,en
+TCK-0087,"Request for second monitor","Can I get a second monitor for my desk? I work with large spreadsheets all day.",hardware,low,en
+TCK-0088,"Brak Wi-Fi w sali","W sali konferencyjnej Bałtyk nie ma zasięgu sieci Wi-Fi.",network,normal,pl
+TCK-0089,"Office supplies ran out","We ran out of printer paper and whiteboard markers in room 2.14.",other,low,en
+TCK-0090,"Shared mailbox access","I need access to the shared mailbox support-emea@company.com.",account-access,low,en
+TCK-0091,"Dostęp do folderu działu","Proszę o nadanie dostępu do folderu sieciowego działu Kadr. Zgoda kierownika w załączniku.",account-access,normal,pl
+TCK-0092,"Random pop-ups in browser","My browser opens random ads and uses a new search engine that I didn't install.",security,normal,en
+TCK-0093,"Headset microphone broken","My headset microphone is broken, colleagues can't hear me. Can I get a replacement?",hardware,low,en
+TCK-0094,"Drukarka nie drukuje","Drukarka na parterze pokazuje błąd papieru, chociaż podajnik jest pełny.",hardware,low,pl
+TCK-0095,"VPN authentication failed","The VPN client says 'Authentication failed' although my Windows password works fine.",account-access,normal,en
+TCK-0096,"AutoCAD crashes when exporting","AutoCAD crashes every time I try to print a drawing to PDF.",software,normal,en
+TCK-0097,"Coffee machine broken","The coffee machine in the 4th floor kitchen shows an error and doesn't make coffee.",other,low,en
+TCK-0098,"Firewall port request","Please open TCP port 8443 from the build server to the new artifact repository.",network,normal,en
+TCK-0099,"Password reset request","I forgot my password after coming back from vacation. Please reset it.",account-access,normal,en
+TCK-0100,"Files renamed with .locked extension","Files on the shared drive suddenly have a .locked extension and there is a README file asking for payment.",security,critical,en
+TCK-0101,"SAP GUI error after update","Since yesterday's update SAP GUI shows 'Runtime error DBIF_RSQL_SQL_ERROR' when I open transaction VA03.",software,high,en
+TCK-0102,"Screen reader not working in HR portal","The NVDA screen reader does not read any of the form fields in the new HR portal.",software,normal,en
+TCK-0103,"Meeting room double-booked","Room 'Everest' is double-booked every Tuesday. Who manages room reservations?",other,low,en
+TCK-0104,"VPN won't connect from hotel","I can't connect to VPN from the hotel Wi-Fi, the client times out.",network,normal,en
+TCK-0105,"Ethernet port dead","The network socket at desk 3-45 doesn't work, there is no link light when I plug in the cable.",network,low,en
+TCK-0106,"Phishing z fake fakturą","Dostaliśmy w dziale kilka maili phishingowych z fake fakturą, attachment to .zip z .exe w środku. Nikt nie otwierał.",security,high,mixed
+TCK-0107,"Dysk sieciowy niedostępny","Nie mogę się dostać do dysku P:, pojawia się błąd 'Nie można odnaleźć ścieżki sieciowej'.",network,normal,pl
+TCK-0108,"Zepsute krzesło","Krzesło przy moim biurku jest połamane, proszę o wymianę.",other,low,pl
+TCK-0109,"Docking station not detecting monitors","The docking station doesn't detect my two monitors anymore. USB devices connected to it still work.",hardware,normal,en
+TCK-0110,"Zalana klawiatura","Klawiatura przestała działać po zalaniu herbatą. Proszę o nową.",hardware,normal,pl
+TCK-0111,"Scanner jams at reception","The document scanner at reception jams on every page and shows a red light.",hardware,low,en
+TCK-0112,"Nie łączy się z VPN","Klient VPN wyświetla błąd przekroczenia czasu połączenia.",network,normal,pl
+TCK-0113,"Potrzebuję install IntelliJ","Hej, potrzebuję zainstalować IntelliJ IDEA Ultimate, licencja jest już approved przez managera.",software,low,mixed
+TCK-0114,"Battery drains fast","My laptop battery lasts only 40 minutes. The laptop is 3 years old.",hardware,normal,en
+TCK-0115,"Laptop overheating","The laptop gets very hot and shuts down by itself during video calls.",hardware,high,en
+TCK-0116,"Projector shows no signal","The projector in room 2.05 shows 'No signal' with every laptop and HDMI cable we tried.",hardware,normal,en
+TCK-0117,"Monitor flickering","My external monitor flickers every few seconds. I already tried another cable.",hardware,normal,en
+TCK-0118,"MFA prompt keeps appearing","I get an MFA prompt every 10 minutes in Outlook and Teams, even though I approve it each time.",account-access,normal,en
+TCK-0119,"Java update breaks warehouse app","After the Java update the old warehouse app shows 'Unsupported major.minor version' and won't start.",software,high,en
+TCK-0120,"Zablokowane konto","Moje konto zostało zablokowane po kilku błędnych próbach logowania. Proszę o odblokowanie.",account-access,high,pl
+TCK-0121,"Read access to reporting database","I need read-only access to the reporting database DWH_PROD for my analysis.",account-access,normal,en
+TCK-0122,"Word document won't save","Word shows 'The document could not be saved' when I try to save to my Documents folder.",software,normal,en
+TCK-0123,"Reset hasła","Zapomniałem hasła do komputera, proszę o reset.",account-access,normal,pl
+TCK-0124,"Unknown sign-in from Brazil","I got a notification about a sign-in to my account from Brazil. I have never been there.",security,critical,en
+TCK-0125,"VPN się rozłącza","VPN rozłącza się co kilka minut, kiedy pracuję z domu.",network,normal,pl
+TCK-0126,"Dostęp do skrzynki współdzielonej","Proszę o dostęp do skrzynki faktury@firma.pl, przejmuję obowiązki koleżanki.",account-access,low,pl
+TCK-0127,"Need newer version of Chrome","Some web apps say my browser is outdated (Chrome 98), but updates are blocked on my laptop.",software,normal,en
+TCK-0128,"Nie przychodzą kody SMS","Nie dostaję kodów SMS do logowania dwuskładnikowego, przez co nie mogę zalogować się do poczty.",account-access,high,pl
+TCK-0129,"Pęknięty ekran telefonu","Upuściłem służbowy telefon i ekran jest pęknięty.",hardware,normal,pl
+TCK-0130,"Konto nieaktywne po urlopie","Po powrocie z urlopu macierzyńskiego nie mogę się zalogować, konto jest nieaktywne.",account-access,high,pl
+TCK-0131,"No Wi-Fi in meeting room","Wi-Fi in meeting room 4.12 doesn't work at all, laptops can't see the CORP-WIFI network.",network,normal,en
+TCK-0132,"Program księgowy nie działa","Symfonia wyrzuca błąd połączenia z bazą danych po aktualizacji do nowej wersji.",software,high,pl
+TCK-0133,"MFA nie działa na nowym phone","Zmieniłem telefon i Authenticator nie pokazuje kodów. Potrzebuję reset MFA na koncie.",account-access,high,mixed
+TCK-0134,"VPN doesn't reconnect after sleep","After the laptop wakes from sleep the VPN doesn't reconnect and I have to reboot.",network,low,en
+TCK-0135,"Lost laptop on train","I lost my laptop on the train this morning. It has client documents on it.",security,critical,en
+TCK-0136,"Stacja dokująca nie działa","Stacja dokująca nie ładuje laptopa i nie wykrywa monitorów.",hardware,normal,pl
+TCK-0137,"Error when opening Power BI report","The Power BI report 'Q3 Finance' shows 'Couldn't load the data for this visual'.",software,normal,en
+TCK-0138,"Air conditioning not working","The air conditioning in room 3.10 is not working and it's 29°C inside.",other,normal,en
+TCK-0139,"Laptop for new developer","We need a laptop for a new developer starting on 1 November. Standard developer configuration, please.",hardware,normal,en
+TCK-0140,"Which username for expenses","Which username should I use for the expense system? My email address doesn't work.",account-access,low,en
+TCK-0141,"Need local admin rights","I need local admin rights on my laptop for one week to test a driver installation.",account-access,low,en
+TCK-0142,"Supplier bank account change request","We got an email from a 'supplier' asking to change their bank account number for payments. The domain looks slightly different.",security,high,en
+TCK-0143,"Need access to Power BI Desktop","Please install Power BI Desktop on my laptop. My manager approved it (see the attached email).",software,low,en
+TCK-0144,"Excel file corrupted po update","Po wczorajszym update Excel mówi, że plik jest corrupted i nie da się go otworzyć.",software,normal,mixed
+TCK-0145,"Nie mogę się zalogować do Jiry","Przy logowaniu do Jiry dostaję 'Access denied', chyba nie mam roli w projekcie. Możecie dodać?",account-access,normal,mixed
+TCK-0146,"Reset self-service security questions","I forgot the answers to my self-service password reset security questions. Can you reset them?",account-access,low,en
+TCK-0147,"Phone screen broken","The screen of my company iPhone is broken, touch doesn't work in the lower half.",hardware,normal,en
+TCK-0148,"Excel macros disabled","All macros in our budget workbook are disabled and the 'Enable content' button is missing.",software,normal,en
+TCK-0149,"Cannot reach intranet","The intranet site intranet.company.local does not open ('This site can't be reached'). Google works.",network,normal,en
+TCK-0150,"Mail merge fails in Word","Mail merge from Excel stops at the first record with 'Word was unable to open the data source'.",software,normal,en
+TCK-0151,"Wireless mouse not working","My wireless mouse stopped working, changing the batteries didn't help.",hardware,low,en
+TCK-0152,"Switch with orange light","The switch in rack B2 has an orange light and three desks in the open space have no network.",network,high,en
+TCK-0153,"Calendar not syncing on phone","Meetings I accept in Outlook don't show up in the calendar app on my company iPhone.",software,low,en
+TCK-0154,"Temporary account for auditor","Please create a temporary account for an external auditor for 2 weeks starting 12 October.",account-access,low,en
+TCK-0155,"Uprawnienia administratora","Potrzebuję tymczasowych uprawnień administratora, żeby zainstalować sterownik do skanera.",account-access,low,pl
+TCK-0156,"Zmiana nazwiska w loginie","Zmieniłam nazwisko, proszę o aktualizację loginu i adresu e-mail.",account-access,low,pl
+TCK-0157,"Teams chat history missing","My chat history in Teams is empty after reinstalling the app.",software,normal,en
+TCK-0158,"Network drive not available","Drive H: shows as disconnected and I cannot open my files. Colleagues in my room have the same issue.",network,high,en
+TCK-0159,"Overtime missing on payslip","My September payslip shows fewer overtime hours than I reported. Who should I contact?",other,normal,en
+TCK-0160,"Zamówienie wizytówek","Proszę o zamówienie wizytówek z nowym stanowiskiem.",other,low,pl
+TCK-0161,"Brak dostępu do systemu kadrowego","Nie mogę zalogować się do systemu kadrowego, pojawia się komunikat o braku uprawnień.",account-access,normal,pl
+TCK-0162,"Parking spot application","How can I apply for a parking spot in the underground garage?",other,low,en
+TCK-0163,"Teams nie uruchamia się","Po kliknięciu ikony Teams nic się nie dzieje. Reinstalacja nie pomogła.",software,normal,pl
+TCK-0164,"Podejrzany mail","Dostałem maila z prośbą o potwierdzenie hasła przez link. Nadawca wygląda podejrzanie.",security,high,pl
+TCK-0165,"Hasło wygasło","Wyskoczył komunikat, że hasło wygasło, ale przy zmianie system nie akceptuje nowego hasła.",account-access,normal,pl
+TCK-0166,"Team desk move","Our team is moving to the 5th floor next month. Who organizes the furniture move?",other,low,en
+TCK-0167,"Brak licencji na Office","Word i Excel wyświetlają komunikat 'Produkt nieaktywowany' i działają tylko w trybie do odczytu.",software,high,pl
+TCK-0168,"Need Visio installed","Please install Microsoft Visio on my laptop, I need it for process diagrams in the new project.",software,low,en
+TCK-0169,"Access update after role change","I moved from Sales to Procurement. Please update my access: remove CRM and add SAP MM.",account-access,normal,en
+TCK-0170,"Laptop się nie włącza","Laptop nie reaguje na przycisk zasilania, dioda ładowania nie świeci.",hardware,high,pl
+TCK-0171,"Cloud apps slow in Kraków","Every cloud app is very slow from the Kraków office; speedtest shows 2 Mbps instead of the usual 300.",network,high,en
+TCK-0172,"Can't log in to Salesforce","Salesforce says 'Your login attempt has failed' although I use the same SSO as always.",account-access,normal,en
+TCK-0173,"Remote desktop disconnects","My RDP session to the terminal server drops every ~20 minutes with 'connection lost'.",network,normal,en
+TCK-0174,"Remote work abroad policy","How many days of remote work from abroad are allowed per year?",other,low,en
+TCK-0175,"Suspicious call from 'IT support'","Someone called claiming to be from IT support and asked me for my MFA code.",security,high,en
+TCK-0176,"Account locked","My account got locked after I typed the wrong password a few times. I can't log in to Windows.",account-access,high,en
+TCK-0177,"USB-C ports not working","None of the USB-C ports on my laptop work, I can only charge it.",hardware,normal,en
+TCK-0178,"Brak paska wynagrodzeń","Nie widzę paska wynagrodzeń za sierpień w portalu pracowniczym. Do kogo się zwrócić?",other,normal,pl
+TCK-0179,"Potrzebuję nowych słuchawek","Proszę o nowe słuchawki z mikrofonem, obecne trzeszczą i się rozpadają.",hardware,low,pl
+TCK-0180,"Laptop won't turn on","My laptop doesn't turn on, even with the charger connected. The LED doesn't light up.",hardware,high,en
+TCK-0181,"Access to Jira project","Please add me to the Jira project PAYM with the developer role.",account-access,low,en
+TCK-0182,"New employee account","A new team member starts on Monday (Piotr Nowak, Marketing). Please create his AD account and mailbox.",account-access,normal,en
+TCK-0183,"Outlook search returns nothing","Searching in Outlook returns no results, even for emails I received today.",software,normal,en
+TCK-0184,"Browser keeps crashing","Chrome crashes every time I open the intranet timesheet page. Edge works but is very slow.",software,normal,en
+TCK-0185,"Windows update stuck","My laptop has been stuck at 'Working on updates 35%' for over an hour. Can I turn it off?",software,high,en
+TCK-0186,"Network printer unreachable","Nobody can print to the 1st floor printer and ping to its IP fails. The printer display looks normal.",network,normal,en
+TCK-0187,"Monitor migocze","Drugi monitor co chwilę gaśnie i znowu się włącza.",hardware,normal,pl
+TCK-0188,"Notepad++ install request","Please install Notepad++ on laptop LT-4411.",software,low,en
+TCK-0189,"Cracked laptop screen","I dropped my laptop and the screen is cracked. It still works with an external monitor.",hardware,normal,en
+TCK-0190,"Zgubiony telefon służbowy","Zgubiłem służbowy telefon w taksówce, jest na nim skonfigurowana poczta firmowa.",security,critical,pl
+TCK-0191,"Laptop slow after Windows update","Since the last Windows update my laptop takes 10 minutes to boot. Nothing else has changed.",software,normal,en
+TCK-0192,"Broken office chair","The height adjustment of my office chair is broken, it keeps sinking.",other,low,en
+TCK-0193,"Excel się zawiesza","Excel zawiesza się przy każdym kopiowaniu danych między arkuszami. Muszę go zamykać przez menedżer zadań.",software,normal,pl
+TCK-0194,"Password expired while abroad","My password expired and I'm on a business trip without access to the office network. How can I change it?",account-access,high,en
+TCK-0195,"Remove access for leaver","Tomasz Wiśniewski left the company on Friday. Please disable his accounts and remove his access to the sales mailbox.",account-access,normal,en
+TCK-0196,"Password not accepted on new laptop","My new laptop does not accept my password, but the same password works in webmail.",account-access,normal,en
+TCK-0197,"Ceiling lights off","Half of the ceiling lights in the open space on the 2nd floor are off.",other,normal,en
+TCK-0198,"Request for Python on dev machine","Could you install Python 3.12 and VS Code on my workstation? I don't have admin rights.",software,low,en
+TCK-0199,"Docker Desktop won't start","Docker Desktop fails to start with the message 'WSL 2 installation is incomplete'.",software,normal,en
+TCK-0200,"USB stick found in parking lot","Someone found a USB stick in the parking lot and wants to plug it in to find the owner. Should we?",security,normal,en
